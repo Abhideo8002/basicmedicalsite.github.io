@@ -1,0 +1,324 @@
+ @charset "utf-8";
+/* CSS Document */
+
+/*logo styling*/	
+.col-md-8{
+    
+    font-size: 25px;
+     font-family: cursive;
+    color: green;
+}
+.col-md-1{
+     font-family: cursive;
+    font-size: 18px;
+    
+}
+	
+ }
+ #logo{
+	 width:250px;
+	 margin-top:10px;
+	 float:left;
+ }
+ #ist{
+	 color:black;
+	 font-size:45px;
+	 font-weight:bold;
+	 margin-left:15px;
+	 font-family:cursive;
+ }
+ #iist{
+	  color:black;
+	 font-size:35px;
+	 font-weight:bold;
+	 font-family:cursive;
+ }
+/*search button*/
+.col-md-6{
+    padding-top:15px;
+    padding-bottom: 15px;
+
+}
+    
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    width: 500px;
+    
+    
+}
+input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+input[type="text"]
+{
+    background: #fff;
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+    
+}
+input[type="submit"]
+{
+    position: relative;
+    left: -5px;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #ffc107;
+    color: #fff;
+    
+}
+input[type="submit"]:hover
+{
+    background: #ff5722;
+    
+}
+.middle{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100;
+    text-align: center;
+    
+}
+.btn{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: red;overflow: hidden;
+    position: relative;
+    
+    
+}
+.btn i{
+    line-height: 40px;
+    font-size: 26px;
+    transition: 0.2s linear;
+    
+}
+.btn:hover i{
+   transform: scale(1.3);
+    color: f1f1f1;
+    
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: red;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+
+}
+.btn:hover::before{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+@keyframes aaa{
+    0%{
+        left: -110%;
+        top: 90%;
+        
+    }50%{
+        left: 10%;
+        top: -30%;
+        
+    }100%{
+        top: -10%;
+        left: -10%;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+	 /*this is for user menu styling
+	 #user-menu{
+		 width:300px;
+		 float:right;
+		 margin-top: 20px;
+		 
+		 }
+/*this is for list styling 
+#user-menu li{
+	float:left;
+	width:140px;
+	text-align:center;
+	list-style:none;
+	font-size:25px;
+  
+	
+	}
+	#user-menu li:hover{
+		font-size:30px;
+		transition:all .5s ease;
+	}
+	#user-menu li a{
+		color:black;
+		text-decoration:none; 
+	}*/
+
+
+	/*this style for navigation bar*/
+	#navigation{
+		
+
+		
+		float:left;
+        font-family: cursive;
+		
+	}
+
+   nav a{
+	   margin-left:35px;
+	   color:white;
+	   text-decoration:none;
+   }
+   nav a:hover{
+	   color:#000;
+	   transition:all .7s ease;
+   }
+
+
+* {box-sizing:border-box}
+
+
+
+ 
+
+
+
+
+	/*category heading*/
+	#heading-block{
+		width:100%;
+		height:auto;
+		float:left;
+		color:#036;
+		font-size:22px;
+	}
+	#heading-block h2{
+		line-height:35px;
+		border-left:20px solid #036;
+		padding-left:10px;
+	}
+	/*---category boxes*/
+	
+	.catbox{
+		width:230px;
+		height:230px;
+		float:left;
+		overflow:hidden;
+		position:relative;
+		margin:0 10px;
+		
+	}
+	.catbox span{
+		width:94%;
+		height:35px;
+		line-height:35px;
+		background:rgba(0,0,0,0.6);
+		color:white;
+		display:block;
+		bottom:30px;
+		position:absolute;
+		z-index:999;
+		text-align:center;
+	}
+	.catbox:hover span{
+		color:#FCF;
+	}
+	.catbox img{
+		max-width:100%;
+		transition:all .5s ease;
+	}
+	.catbox:hover img{
+		transform:scale(1.3,1.3);
+		transition:all .5s ease;
+	}
+/*footer style*/
+
+	#footer{
+		width:100%;
+		height:auto;
+		background:#d6f0ee;
+        float:left;
+        font-family: cursive;
+
+	} 
+	.footer_sub{
+		width:55%;
+       
+		
+	}
+	.footer_sub_2{
+		width:55%;
+         font-family: cursive;
+		
+	}
+.footer_sub_2 ul li{
+    list-style:none;
+
+
+    
+}
+.footer_sub_2 ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.footer_sub_2 ul li a:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+
+.footer_sub_3{
+    width: 55%;
+    float: center;
+}
+
+
+		
+		
+
+
